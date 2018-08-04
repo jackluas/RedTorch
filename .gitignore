@@ -20,19 +20,28 @@
 .classpath
 .project
 
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-/target/
+target/
 
-/.settings/
+#idea local config
+.idea/
+
+bin/
+
+*.bak
+
+.settings/
+.gradle/
+build/
+
 
 # private
-/src/main/java/xyz/redtorch/trader/module/zeus/strategy/routine/pvt/impl/*
-/src/main/java/xyz/redtorch/trader/module/zeus/strategy/hft/*
-/src/main/java/xyz/redtorch/trader/rm/impl/*
+pvt/
+hft/
 
+rt-api-pctp/
+rt-gateway-pctp/
 
-/src/main/java/xyz/redtorch/trader/rm/impl/*
-
-/src/test/java/xyz/redtorch/trader/common/*
 
